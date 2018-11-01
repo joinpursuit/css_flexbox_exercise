@@ -2,16 +2,30 @@
   width: 150px;
   height: 150px;
   background-color: red;
+  display: flex;
+  flex-direction: row;
+  order: -1
 }
 
 .blue {
   width: 150px;
   height: 150px;
   background-color: blue;
+  flex-direction: row;
+  order: 1;
+
 }
 
 .yellow {
   width: 150px;
   height: 150px;
   background-color: yellow;
+  flex-direction: row;
+  order: 0;
+
+}
+
+body {
+  display: flex;
+  justify-content: space-around;
 }
