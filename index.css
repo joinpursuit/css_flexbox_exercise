@@ -1,17 +1,57 @@
+html, body, header, nav, h1, a,
+ul, ol, li, strong, main, button, i,
+section, img, div, h2, p, form,
+fieldset, label, input, textarea,
+span, article, footer, time, small {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  color: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  vertical-align: inherit;
+  box-sizing: inherit;
+  background: transparent;
+}
+
+
+body {
+display: block;
+margin: 0px;
+
+}
+
+div {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: 0px;
+}
+
 .red {
+  order: -1;
   width: 150px;
   height: 150px;
   background-color: red;
+
 }
 
 .blue {
+  order: 1;
   width: 150px;
   height: 150px;
   background-color: blue;
+
 }
 
 .yellow {
   width: 150px;
   height: 150px;
   background-color: yellow;
+
+}
+
+.red, .blue, .yellow {
+  margin: 0px;
 }
