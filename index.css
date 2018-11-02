@@ -1,16 +1,33 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Was messing around with. Seem to be having trouble getting the elements to
+have spaces  */
+
+/* @media screen and (max-width: 300px) {
+  body {
+    justify-content: space-evenly;
+  }
+} */
+
 .red {
+  order: 0;
   width: 150px;
   height: 150px;
   background-color: red;
 }
 
 .blue {
+  order: 2;
   width: 150px;
   height: 150px;
   background-color: blue;
 }
 
 .yellow {
+  order: 1;
   width: 150px;
   height: 150px;
   background-color: yellow;
