@@ -1,8 +1,8 @@
 # CSS Flexbox
 
-The best way to learn Flexbox is to play [Flexbox Froggy](https://flexboxfroggy.com/) all the way through.
+The best way to learn Flexbox is to play [Flexbox Froggy](https://flexboxfroggy.com/) all the way through.//
 
-Once you've done that, take a look at `index.html` in this folder. Update the CSS file so that each box:
+Once you've done that, take a look at `index.html` in this folder. Update the CSS file so that each box://
 
 - Is arranged in a row, wrapping when the window gets smaller than the total width of the elements.
 - Is ordered according to the color of the elements - all `red` divs should be first, then `yellow`, then `blue`.
