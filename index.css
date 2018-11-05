@@ -3,14 +3,11 @@ body {
     flex-wrap: wrap;
 }
 
-/* Was messing around with. Seem to be having trouble getting the elements to
-have spaces  */
-
-/* @media screen and (max-width: 300px) {
+@media screen and (max-width: 1350px) {
   body {
     justify-content: space-evenly;
   }
-} */
+}
 
 .red {
   order: 0;
