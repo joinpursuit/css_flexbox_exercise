@@ -29,6 +29,6 @@ body {
 
 @media screen and (max-width: 1350px) {
   body {
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
 }
