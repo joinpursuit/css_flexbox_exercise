@@ -1,17 +1,46 @@
 .red {
+  display: flex;
+  flex-direction: row;
   width: 150px;
   height: 150px;
   background-color: red;
+  order: 0;
+  justify-content: space-evenly;
+  /* flex-flow: row wrap; */
 }
 
 .blue {
+  display: flex;
+  flex-direction: row;
   width: 150px;
   height: 150px;
   background-color: blue;
+  order: 2;
+  /* flex-flow: row wrap; */
+  justify-content: space-evenly;
+
 }
 
 .yellow {
+  display: flex;
+  flex-direction: row;
   width: 150px;
   height: 150px;
   background-color: yellow;
+  order: 1;
+  justify-content: space-evenly;
+
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width:1365px) {
+  body {
+    justify-content: flex-start;
+  }
 }
