@@ -2,16 +2,31 @@
   width: 150px;
   height: 150px;
   background-color: red;
+  order:-1;
 }
 
 .blue {
   width: 150px;
   height: 150px;
   background-color: blue;
+  order:1;
 }
 
 .yellow {
   width: 150px;
   height: 150px;
   background-color: yellow;
+  order:0;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+@media screen and (min-width: 1350px) {
+  body{
+  justify-content: space-evenly;
+  }
 }
