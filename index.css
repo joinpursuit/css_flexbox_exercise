@@ -1,17 +1,34 @@
+body{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
 .red {
   width: 150px;
   height: 150px;
   background-color: red;
-}
-
-.blue {
-  width: 150px;
-  height: 150px;
-  background-color: blue;
+  order: 0;
 }
 
 .yellow {
   width: 150px;
   height: 150px;
   background-color: yellow;
+  order: 1;
+}
+
+.blue {
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+  order: 2;
+ }
+
+@media screen and (max-width: 1350px){
+  body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
 }
