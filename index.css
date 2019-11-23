@@ -18,3 +18,12 @@
   height: 150px;
   background-color: yellow;
 }
+
+
+body{ 
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly
+  }
+  
