@@ -1,6 +1,8 @@
 # CSS Flexbox
 
-The best way to learn Flexbox is to play [Flexbox Froggy](https://flexboxfroggy.com/) all the way through.
+The best way to learn Flexbox is to play [Flexbox Froggy](
+    
+) all the way through.
 
 Once you've done that, take a look at `index.html` in this folder. Update the CSS file so that each box:
 
