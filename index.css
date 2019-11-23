@@ -1,17 +1,32 @@
+/* - Is arranged in a row, wrapping when the window gets smaller than the total width of the elements.
+- Is ordered according to the color of the elements - all `red` divs should be first, then `yellow`, then `blue`.
+- If the window is larger than the total width of the elements, they should be evenly spaced across the window. */
+
 .red {
   width: 150px;
   height: 150px;
   background-color: red;
+  order:1;
 }
 
 .blue {
   width: 150px;
   height: 150px;
   background-color: blue;
+  order:2;
 }
 
 .yellow {
   width: 150px;
   height: 150px;
   background-color: yellow;
+  order:3;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* justify-content: space-around; */
 }
