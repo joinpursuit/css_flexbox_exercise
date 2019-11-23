@@ -1,12 +1,23 @@
+body{ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+
 .red {
   display: flex;
   flex-direction: row;
   width: 150px;
   height: 150px;
   background-color: red;
+<<<<<<< HEAD
   order: 0;
   justify-content: space-evenly;
   /* flex-flow: row wrap; */
+=======
+  order: 1;
+>>>>>>> 41cfee88ee17fe0963870923696e0857153641c0
 }
 
 .blue {
@@ -15,10 +26,14 @@
   width: 150px;
   height: 150px;
   background-color: blue;
+<<<<<<< HEAD
   order: 2;
   /* flex-flow: row wrap; */
   justify-content: space-evenly;
 
+=======
+  order: 3;
+>>>>>>> 41cfee88ee17fe0963870923696e0857153641c0
 }
 
 .yellow {
@@ -27,9 +42,13 @@
   width: 150px;
   height: 150px;
   background-color: yellow;
+<<<<<<< HEAD
   order: 1;
   justify-content: space-evenly;
 
+=======
+  order: 2
+>>>>>>> 41cfee88ee17fe0963870923696e0857153641c0
 }
 
 body {
