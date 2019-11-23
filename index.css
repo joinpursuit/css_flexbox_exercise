@@ -1,17 +1,47 @@
+body{
+<<<<<<< HEAD
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+}
+=======
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around
+}
+
+
+>>>>>>> 86b00552ff282122bf2eec54afbb560cdf964872
 .red {
   width: 150px;
   height: 150px;
   background-color: red;
+<<<<<<< HEAD
+  order: 1;
+=======
+  order: 1
+  
+>>>>>>> 86b00552ff282122bf2eec54afbb560cdf964872
 }
 
 .blue {
   width: 150px;
   height: 150px;
   background-color: blue;
+<<<<<<< HEAD
+  order:3;
+=======
+  order: 3
+>>>>>>> 86b00552ff282122bf2eec54afbb560cdf964872
 }
 
 .yellow {
   width: 150px;
   height: 150px;
   background-color: yellow;
+<<<<<<< HEAD
+  order:2;
+=======
+  order: 2
+>>>>>>> 86b00552ff282122bf2eec54afbb560cdf964872
 }
