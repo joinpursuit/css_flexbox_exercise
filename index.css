@@ -1,17 +1,31 @@
+body{
+  display:flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+
+
 .red {
   width: 150px;
   height: 150px;
   background-color: red;
+  order: -2;
+  flex-direction: row;
+  
 }
 
 .blue {
   width: 150px;
   height: 150px;
   background-color: blue;
+  order: -1;
+  flex-direction: row;
 }
 
 .yellow {
   width: 150px;
   height: 150px;
   background-color: yellow;
+  flex-direction: row ;
 }
