@@ -2,16 +2,25 @@
   width: 150px;
   height: 150px;
   background-color: red;
+  /* flex-flow: row; */
+  /* justify-content: flex-start; */
+  align-items: flex-start;
 }
 
 .blue {
   width: 150px;
   height: 150px;
   background-color: blue;
+  
 }
 
 .yellow {
   width: 150px;
   height: 150px;
   background-color: yellow;
+  /* align-content:  */
+}
+
+body{
+  flex-flow: row-reverse;
 }
