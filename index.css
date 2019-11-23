@@ -2,16 +2,26 @@
   width: 150px;
   height: 150px;
   background-color: red;
+  order: -2;
 }
 
 .blue {
   width: 150px;
   height: 150px;
   background-color: blue;
+
 }
 
 .yellow {
   width: 150px;
   height: 150px;
   background-color: yellow;
+  order: -1;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
