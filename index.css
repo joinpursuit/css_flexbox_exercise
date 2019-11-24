@@ -1,17 +1,32 @@
 .red {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end ;
+  order: 1;
   width: 150px;
   height: 150px;
   background-color: red;
 }
-
 .blue {
+  display: flex;
+  align-self: auto;
+  align-items: flex-end;
+  order: 3;
   width: 150px;
   height: 150px;
   background-color: blue;
 }
-
 .yellow {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  order: 2;
   width: 150px;
   height: 150px;
   background-color: yellow;
+}
+body{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
