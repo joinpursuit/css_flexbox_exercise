@@ -1,9 +1,9 @@
 body{
   display: flex;
   align-items: center;
-  flex-direction:column;
-  justify-content: center;
-  
+  flex-direction:row;
+  /* justify-content: space-evenly; */
+
 
 }
 
@@ -28,4 +28,11 @@ body{
   height: 150px;
   background-color: yellow;
   order: 3;
+}
+
+@media screen and (max-width: 150px){
+ body{
+  display: flex;
+  justify-content: space-evenly;
+ }
 }
