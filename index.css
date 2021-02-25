@@ -1,8 +1,9 @@
 body{
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
+  /* align-items: center; */
   flex-direction:row;
-  /* justify-content: space-evenly; */
+  justify-content: space-evenly;
 
 
 }
@@ -30,7 +31,7 @@ body{
   order: 3;
 }
 
-@media screen and (max-width: 150px){
+@media screen and (max-width:250px){
  body{
   display: flex;
   justify-content: space-evenly;
