@@ -22,3 +22,15 @@ body {
   flex-wrap: wrap;
 }
 
+.red {
+  order: 0;
+}
+
+.yellow {
+  order: 1;
+}
+
+.blue {
+  order: 2;
+}
+
