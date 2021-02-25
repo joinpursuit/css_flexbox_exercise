@@ -15,3 +15,23 @@
   height: 150px;
   background-color: yellow;
 }
+
+body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.red {
+  order: 0;
+}
+
+.yellow {
+  order: 1;
+}
+
+.blue {
+  order: 2;
+}
+
