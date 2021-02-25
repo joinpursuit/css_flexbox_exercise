@@ -1,10 +1,8 @@
 body{
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
   flex-direction:row;
-  /* justify-content: space-evenly; */
-
-
+  justify-content: space-evenly; 
 }
 
 
@@ -30,9 +28,10 @@ body{
   order: 3;
 }
 
-@media screen and (max-width: 150px){
- body{
+@media screen and (max-width: 250px){
+ body{ 
   display: flex;
   justify-content: space-evenly;
  }
 }
+
