@@ -1,16 +1,13 @@
 body{
   display:flex;
   flex-wrap:wrap;
-  justify-content: space-between;
 }
 .red {
   width: 150px;
   height: 150px;
   background-color: red;
   order:1;
-
 }
-
 .blue {
   width: 150px;
   height: 150px;
@@ -24,10 +21,8 @@ body{
   background-color: yellow;
   order:2;
 }
-@media screen and (min-width: 150px){
+@media screen and (min-width: 450px){
   body {
-    display:flex;
-    flex-wrap:wrap;
     justify-content: space-evenly;
   }
 }
