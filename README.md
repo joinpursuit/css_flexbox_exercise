@@ -9,3 +9,4 @@ Once you've done that, take a look at `index.html` in this folder. Update the CS
 - If the window is larger than the total width of the elements, they should be evenly spaced across the window.
 
 Please do this _without changing the HTML at all_.
+
