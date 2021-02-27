@@ -1,4 +1,10 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .red {
+  order: -2;
   width: 150px;
   height: 150px;
   background-color: red;
@@ -11,7 +17,15 @@
 }
 
 .yellow {
+  order: -1;
   width: 150px;
   height: 150px;
   background-color: yellow;
+}
+
+@media screen and (min-width: 1350px) {
+  body {
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
