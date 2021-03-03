@@ -1,17 +1,43 @@
 .red {
+  margin-top: 5px;
   width: 150px;
   height: 150px;
   background-color: red;
+  order: -1;
 }
 
 .blue {
+  margin-top: 5px;
   width: 150px;
   height: 150px;
   background-color: blue;
+  order: 2;
+
 }
 
 .yellow {
+  margin-top: 5px;
   width: 150px;
   height: 150px;
   background-color: yellow;
+  order: 1;
+ 
+}
+body{
+  padding: 10px;
+  display: flex;
+  height: 600px;
+  justify-content: space-between;
+  border: 10px solid rgb(9, 255, 0);
+  align-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+@media screen and(max-width: 800px){
+  body{
+    width: 100%;
+    min-width: 150px;
+    max-width: 300px;
+  }
 }
