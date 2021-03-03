@@ -2,16 +2,37 @@
   width: 150px;
   height: 150px;
   background-color: red;
+  border:5px solid black;
+  margin: 10px;
+  order:0;
 }
 
 .blue {
   width: 150px;
   height: 150px;
   background-color: blue;
+  border:5px solid black;
+  margin: 10px;
+  order:1 ;
 }
 
 .yellow {
   width: 150px;
   height: 150px;
   background-color: yellow;
+  border:5px solid black;
+  margin: 10px;
+  order:2;
+}
+body{
+  flex-wrap:wrap;
+  display: flex;
+}
+@media screen and (max-width: 1350px) {
+  body{
+    justify-content: space-evenly;
+
+  }
+  
+  
 }
