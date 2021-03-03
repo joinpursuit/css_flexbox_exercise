@@ -1,17 +1,35 @@
+body {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
 .red {
   width: 150px;
   height: 150px;
   background-color: red;
+  order: -1;
 }
 
 .blue {
   width: 150px;
   height: 150px;
   background-color: blue;
+  order: 1;
+
 }
 
 .yellow {
   width: 150px;
   height: 150px;
   background-color: yellow;
+  order: 2;
+}
+
+@media screen and (max-width: 800px) {
+  .body {
+    width: 100%;
+    min-width: 250px;
+
+ }
 }
