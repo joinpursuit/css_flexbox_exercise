@@ -30,7 +30,7 @@ body{
   justify-content: space-between;
   border: 10px solid rgb(9, 255, 0);
   align-content: space-around;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   
 }
