@@ -2,6 +2,7 @@
   width: 150px;
   height: 150px;
   background-color: red;
+  order: -1;
 }
 
 .blue {
@@ -14,4 +15,16 @@
   width: 150px;
   height: 150px;
   background-color: yellow;
+  order: 1;
+}
+
+body {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+@media screen and (max-width:800px){
+  body {
+    align-content: stretch;
+  }
 }
