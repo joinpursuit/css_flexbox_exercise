@@ -27,7 +27,7 @@ body {
 }
 
 @media screen and (max-width: 800px) {
-  .body {
+  .body { 
     width: 100%;
     min-width: 250px;
 
