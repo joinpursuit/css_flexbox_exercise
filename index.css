@@ -1,13 +1,23 @@
+body{
+  display: flex;
+  flex-flow: row wrap ;
+  justify-content: space-evenly;
+}
+
 .red {
   width: 150px;
   height: 150px;
   background-color: red;
+  order: -1;
+  border: solid green 2px;
 }
 
 .blue {
   width: 150px;
   height: 150px;
   background-color: blue;
+  border: 2px solid orangered;
+  order: 1;
 }
 
 .yellow {
